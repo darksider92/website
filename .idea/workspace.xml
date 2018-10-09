@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4667c71-78d5-4360-ad63-971b9624b805" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/templates/pages/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/templates/pages/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/templates/pages/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,25 +25,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Procfile" value="4" />
           <entry key="html" value="46" />
           <entry key="py" value="50" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="46" />
+          <entry key="PLAIN_TEXT" value="16" />
           <entry key="Python" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Procfile" value="2" />
           <entry key="html" value="5" />
           <entry key="py" value="3" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="5" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="Python" value="3" />
         </counts>
       </usages-collector>
@@ -54,32 +58,50 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/templates/home.html">
+        <entry file="file://$PROJECT_DIR$/pages/templates/pages/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/templates/about.html">
+        <entry file="file://$PROJECT_DIR$/pages/templates/pages/about.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+                <marker date="1539064995847" expanded="true" signature="177:182" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/tests.py">
+        <entry file="file://$PROJECT_DIR$/runtime.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-                <marker date="1539064995847" expanded="true" signature="177:182" ph="..." />
-              </folding>
+            <state>
+              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -108,6 +130,9 @@
         <option value="$PROJECT_DIR$/pages/templates/home.html" />
         <option value="$PROJECT_DIR$/pages/templates/about.html" />
         <option value="$PROJECT_DIR$/pages/tests.py" />
+        <option value="$PROJECT_DIR$/pages/Procfile" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/auth/runtime.txt" />
       </list>
     </option>
   </component>
@@ -120,8 +145,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -141,11 +166,6 @@
               <item name="auth" type="462c0819:PsiDirectoryNode" />
               <item name="auth" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="auth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -158,6 +178,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\auth" />
+      <recent name="C:\Users\User\Desktop\auth\pages\templates\pages" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -207,6 +233,14 @@
       <option name="presentableId" value="Default" />
       <updated>1539055931915</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1539065367092</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539065367092</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -214,14 +248,14 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3295082" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49924356" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50075644" side_tool="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -241,6 +275,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/auth/settings.py">
@@ -280,35 +318,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/pages/templates/pages/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/pages/templates/pages/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/templates/about.html">
+    <entry file="file://$PROJECT_DIR$/pages/templates/pages/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
             <marker date="1539064995847" expanded="true" signature="177:182" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
